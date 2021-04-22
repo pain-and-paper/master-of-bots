@@ -5,14 +5,14 @@
   color: red;
 }
 
-#typewriter {
+#presentation-typewriter {
   font-size: 1em;
   margin: -75px;
   font-family: "Courier New";
   width: 30%;
 }
 
-#typewriter:after {
+#presentation-typewriter:after {
   content: "|";
   animation: blink 500ms linear infinite alternate;
 }

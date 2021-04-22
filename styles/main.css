@@ -61,10 +61,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 1376px) {
-  #typewriter {
+  #presentation-typewriter {
     display: none;
   }
-  #spaceship {
+  #presentation-spaceship {
     display: none;
   }
 

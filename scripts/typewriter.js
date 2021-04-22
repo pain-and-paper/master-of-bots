@@ -60,8 +60,7 @@ function setupTypewriter(t) {
   };
 }
 
-var typer = document.querySelector("#typewriter");
-console.log(typer);
+var typer = document.querySelector("#presentation-typewriter");
 typewriter = setupTypewriter(typer);
 
 typewriter.type();

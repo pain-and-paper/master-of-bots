@@ -12,11 +12,13 @@
 
 <body onload="loadExample();">
   <div class="container">
+
     <div class="source">
       <textarea id="from-source" name="from-source"></textarea>
     </div>
+
     <div class="presentation">
-      <pre id="typewriter">
+      <pre id="presentation-typewriter">
         <span class="var-highlight">const</span> source = {
             name: <span class="string-highlight">'Master of bots'</span>,
             type: <span class="string-highlight">'Mindustry compiler'</span>,
@@ -25,15 +27,19 @@
                         <span class="string-highlight">'Open source'</span>];
         }; </pre>
 
-      <div id="craft">
+      <div id="presentation-run">
         <button onclick="runHandler();">Build it!</button>
       </div>
-      <div class="spaceship">
+
+      <div id="presentation-spaceship">
         <img id="spaceship" src="spaceship.gif"
           alt="spaceship found in http://clipart-library.com/clipart/1980581.htm" />
       </div>
     </div>
-    <div class="source"><textarea id="to-source" name="to-source"></textarea></div>
+
+    <div class="source">
+      <textarea id="to-source" name="to-source"></textarea>
+    </div>
   </div>
 
   <script src='/scripts/main.js'></script>

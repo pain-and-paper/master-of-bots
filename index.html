@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Master of bots</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/styles/main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/styles/typewriter.css'>
+</head>
+
+<body onload="loadExample();">
+  <div class="container">
+    <div class="source">
+      <textarea id="from-source" name="from-source"></textarea>
+    </div>
+    <div class="presentation">
+      <pre id="typewriter">
+        <span class="var-highlight">const</span> source = {
+            name: <span class="string-highlight">'Master of bots'</span>,
+            type: <span class="string-highlight">'Mindustry compiler'</span>,
+            properties:[<span class="string-highlight">'Python-like input'</span>,
+                        <span class="string-highlight">'Easy to use'</span>,
+                        <span class="string-highlight">'Open source'</span>];
+        }; </pre>
+
+      <div id="craft">
+        <button onclick="runHandler();">Build it!</button>
+      </div>
+      <div class="spaceship">
+        <img id="spaceship" src="spaceship.gif"
+          alt="spaceship found in http://clipart-library.com/clipart/1980581.htm" />
+      </div>
+    </div>
+    <div class="source"><textarea id="to-source" name="to-source"></textarea></div>
+  </div>
+
+  <script src='/scripts/main.js'></script>
+  <script src='/scripts/typewriter.js'></script>
+</body>
+
+</html>

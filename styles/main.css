@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.source {
+  flex-grow: 1;
+}
+
+#spaceship {
+  width: 100px;
+  height: auto;
+}
+
+.presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea {
+  resize: none;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #9e2d25;
+}
+
+@media only screen and (max-width: 1376px) {
+  #typewriter {
+    display: none;
+  }
+  #spaceship {
+    display: none;
+  }
+
+  .presentation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
